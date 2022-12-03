@@ -25,18 +25,24 @@
             style="background-image: url('./images/Cover.png');">
         </div>
 
-        <div class="rounded-xl lg:w-[900px] w-[393px] -mt-48 bg-white lg:mx-[510px] lg:p-[50px] p-2
+        <div class="rounded-xl lg:w-[900px] w-[393px] -mt-48 bg-white 
+        dark:bg-slate-700 lg:mx-[510px] lg:p-[50px] p-2
          divider-x shadow-none">
-            
+         
         <div class="grid grid-cols-1 divide-y">
-            <div class="lg:my-6 my-2 lg:font-extrabold font-bold text-capitalize  
+            <div class="lg:my-6 my-2 font-extrabold text-capitalize  
             text-[#262338] lg:text-[56px] text-xl lg:leading-[67px] leading-6">
-                <h2>Hi! I’m Hiro</h2>
-                <h2 class="font-extrabold text-[56px] text-[#262338;] leading-[67px]">I’m a 
+                <div class="flex items-start">
+                    <h2 class="flex-1 text-sl">Hi! I’m Hiro</h2>
+                        <img class="moon cursor-pointer lg:w-[30px] lg:h-[30px] w-[20px] h-[20px]"          
+                        src="./images/moon.png" alt="">
+                        <img class="sun cursor-pointer lg:w-[30px] lg:h-[30px] w-[20px] h-[20px]" 
+                        src="./images/sun.png" alt="">
+                </div>
+                <h2 class="font-extrabold lg:text-[56px] text-sl text-[#262338;] lg:leading-[67px]">I’m a 
                     <span class="text-[#04BD00]">Lorem</span></h2>
             </div>
-
-            <div>
+            
                 <div class="grid lg:flex grid-cols-6 lg:my-6 my-2 font-normal
                 leading-5 lg:text-[18px] text-sm text-[#857D7B]">
                     <div><a href="" class=" underline">AI Gallery</a></div>
@@ -52,13 +58,13 @@
                     <div><a href="" class="underline">Email</a></div>
                     <div><span class="px-2"></span></div>
                 </div>
-            </div>
-
-            <div class="lg:my-6 my-2">
+                               <div class="lg:my-6 my-2">
                 <ul class="list-disc lg:text-xl text-sm list-inside
                 text-[#252525]">
-                    <li>Lorem of <a href="" class="underline font-extrabold text-[#04BD00]">Lorem</a></li>
-                    <li>Lorem of <a href="" class="underline font-extrabold text-[#04BD00]">Lorem</a></li>
+                    <li>Lorem of <a href="" class="underline font-extrabold 
+                        text-[#04BD00]">Lorem</a></li>
+                    <li>Lorem of <a href="" class="underline font-extrabold 
+                        text-[#04BD00]">Lorem</a></li>
                   </ul>
             </div>
 
@@ -67,16 +73,19 @@
                     <h3 class="lg:text-2xl text-sm text-[#252525] lg:leading-7 leading-4
                      font-bold capitalize">💻 What I’m working On</h3>
                     <ul class="list-disc list-inside mt-2.5 lg:text-xl text-sm">
-                        <li>In tincidunt in sed molestie lacus eu adipiscing. Neque faucibus molestie
-                             phaselius in. Suspendisse quam vel gravida euismod quam suspendisse ut commodo 
+                        <li>In tincidunt in sed molestie lacus eu adipiscing. 
+                            Neque faucibus molestie phaselius in. Suspendisse quam 
+                            vel gravida euismod quam suspendisse ut commodo 
                              sit. Bibendum ament facilisis nisl 
                             <a href="" class="font-bold underline text-[#04BD00]">pulinar</a> 
                             nulla volutpat pulvinar.</li>
-                        <li>Vel volutpat sed viverra praesent vel eget. Tortor mollis quam enim lectus quam
-                             sem iaculis fringilla. Tellus ut euismod a libero varius cras. Morbi velit
+                        <li>Vel volutpat sed viverra praesent vel eget. Tortor mollis quam
+                             enim lectus quam sem iaculis fringilla. 
+                             Tellus ut euismod a libero varius cras. Morbi velit
                               nec vitae consequat donec at sed diamg</li>  
-                        <li>Eget quis lacus elit molestie diam. Risus neque varius augue pparetra gravida
-                            praesent fermentum. <a href="" class="font-bold underline 
+                        <li>Eget quis lacus elit molestie diam. Risus neque varius augue
+                            pparetra gravida praesent fermentum. 
+                            <a href="" class="font-bold underline 
                             text-[#04BD00]">Faucibus</a> imperdiet velit nascetur commodo
                              vel convallis </li>                    
                     </ul>
@@ -107,6 +116,8 @@
 
     </div>
     </section>
+    <script src="./app.js">
+    </script>
 </body>
 
 </html>
